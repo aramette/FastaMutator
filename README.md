@@ -1,5 +1,5 @@
 # FastaMutator
-Given one fasta sequence, creates multifasta files containing mutant fasta sequences
+Given one fasta sequence, creates multifasta files containing mutant fasta sequences.
 
 ### Description 
 Given one fasta sequence, creates multifasta files containing mutant fasta sequences
@@ -20,7 +20,7 @@ The script allows only point mutations. See EMBOSS::msbar (not R) for more compl
 This indicates that the algorithm could not find a unique mutant (the same mutants occur at least twice in this set)
 Change "Ntries" to make more (lengthier) search of unique sequences.
 
-### Parameters (hard-coded for now; to be changed at will)
+### Parameters (hard-coded for now; please change as needed)
 
 __FILES__ = c("Fasta1.txt")
 
