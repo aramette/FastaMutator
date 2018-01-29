@@ -20,13 +20,13 @@ The script allows only point mutations. See EMBOSS::msbar (not R) for more compl
 This indicates that the algorithm could not find a unique mutant (the same mutants occur at least twice in this set)
 Change "Ntries" to make more (lengthier) search of unique sequences.
 
-### Parameters (hard-coded for now)
+### Parameters (hard-coded for now; to be changed at will)
 
-__FILES__=c("Fasta1.txt")\n
+__FILES__ = c("Fasta1.txt")
 
-__MutationRate__=c(0.01,0.02,0.03,0.05,0.10)
+__MutationRate__ = c(0.01,0.02,0.03,0.05,0.10)
 
-__Nmutants__=100 # number of mutated fasta sequences to create
+__Nmutants__ = 100 # number of mutated fasta sequences to create
 
-__Ntries__=10 # how many times to try searching for a new sequence of a variant?
+__Ntries__= 10 # how many times to try searching for a new sequence of a variant?
 
