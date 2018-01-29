@@ -17,7 +17,7 @@ This indicates that the algorithm could not find a unique mutant (the same mutan
 Change "Ntries" to make more (lengthier) search of unique sequences.
 
 ### Parameters (hard-coded for now)
-FILES=c("Fasta1.txt")
+FILES=c("Fasta1.txt")\n
 MutationRate=c(0.01,0.02,0.03,0.05,0.10)
 Nmutants=100 # number of mutated fasta sequences to create
 Ntries=10 # how many times to try searching for a new sequence of a variant?
